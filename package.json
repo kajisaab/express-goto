@@ -1,0 +1,18 @@
+{
+  "name": "express-goto",
+  "version": "0.0.1",
+  "description": "Express js goto library includes core initializers",
+  "license": "MIT",
+  "author": "Kajisaab",
+  "type": "commonjs",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "devDependencies": {
+    "tsup": "^8.5.0",
+    "typescript": "^5.8.3"
+  }
+}
