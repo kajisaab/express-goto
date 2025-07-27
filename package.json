@@ -1,6 +1,6 @@
 {
     "name": "@kajisaab/express-goto",
-    "version": "0.0.7",
+    "version": "0.1.2",
     "description": "Express js goto library includes core initializers",
     "license": "MIT",
     "author": "Kajisaab",

@@ -13,6 +13,7 @@ export * from './responseHandler/Result';
 export * from './responseHandler/responseHandler';
 export * from './RequestContext/requestContext';
 export * from './RequestContext/userDetails';
+export * from './RequestContext/requestInterceptorFactory';
 export * from './usecase/usecase';
 export * from './usecase/usecase.request';
 export * from './usecase/usecase.response';
