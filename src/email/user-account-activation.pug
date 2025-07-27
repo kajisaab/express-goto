@@ -1,0 +1,68 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    title Account Activation
+    style.
+      body {
+        font-family: 'Segoe UI', Arial, sans-serif;
+        background: #f6f8fa;
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        max-width: 500px;
+        margin: 40px auto;
+        background: #fff;
+        border-radius: 12px;
+        box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+        padding: 32px 24px;
+      }
+      .title {
+        color: #2d3748;
+        font-size: 2rem;
+        margin-bottom: 12px;
+        text-align: center;
+      }
+      .message {
+        color: #4a5568;
+        font-size: 1.1rem;
+        margin-bottom: 24px;
+        text-align: center;
+      }
+      .button {
+        display: block;
+        width: 100%;
+        background: linear-gradient(90deg, #667eea, #5a67d8);
+        color: #fff;
+        text-decoration: none;
+        font-weight: 600;
+        padding: 14px 0;
+        border-radius: 8px;
+        text-align: center;
+        font-size: 1.1rem;
+        margin-bottom: 18px;
+        transition: background 0.2s;
+      }
+      .button:hover {
+        background: linear-gradient(90deg, #5a67d8, #667eea);
+      }
+      .footer {
+        color: #a0aec0;
+        font-size: 0.95rem;
+        text-align: center;
+        margin-top: 18px;
+      }
+  body
+    .container
+      .title Account Activation Required
+      .message
+        | Hello #{firstName},
+        br
+        | Thank you for registering with Hotel Management. To activate your account, please click the button below:
+      a.button(href=activationUrl target="_blank") Activate My Account
+      .footer
+        | If you did not sign up for this account, you can safely ignore this email.
+        br
+        | &copy; #{year} Hotel Management

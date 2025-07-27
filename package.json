@@ -1,18 +1,38 @@
 {
-  "name": "express-goto",
-  "version": "0.0.1",
-  "description": "Express js goto library includes core initializers",
-  "license": "MIT",
-  "author": "Kajisaab",
-  "type": "commonjs",
-  "main": "./dist/index.js",
-  "module": "./dist/index.mjs",
-  "types": "./dist/index.d.ts",
-  "scripts": {
-    "build": "tsup"
-  },
-  "devDependencies": {
-    "tsup": "^8.5.0",
-    "typescript": "^5.8.3"
-  }
+    "name": "@kajisaab/express-goto",
+    "version": "0.0.5",
+    "description": "Express js goto library includes core initializers",
+    "license": "MIT",
+    "author": "Kajisaab",
+    "type": "commonjs",
+    "main": "./dist/index.js",
+    "module": "./dist/index.mjs",
+    "types": "./dist/index.d.ts",
+    "scripts": {
+        "build": "tsup"
+    },
+    "repository": {
+        "url": "https://github.com/kajisaab/express-goto.git"
+    },
+    "devDependencies": {
+        "@types/cors": "^2.8.19",
+        "@types/express": "^5.0.3",
+        "@types/jsonwebtoken": "^9.0.10",
+        "@types/nodemailer": "^6.4.17",
+        "@types/pug": "^2.0.10",
+        "tsup": "^8.5.0",
+        "typescript": "^5.8.3"
+    },
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^5.1.0",
+        "joi": "^17.13.3",
+        "jsonwebtoken": "^9.0.2",
+        "kafkajs": "^2.2.4",
+        "nodemailer": "^7.0.5",
+        "pug": "^3.0.3",
+        "redis": "^4.7.0",
+        "uuid": "^11.1.0",
+        "winston": "^3.17.0"
+    }
 }
