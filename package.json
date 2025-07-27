@@ -1,6 +1,6 @@
 {
     "name": "@kajisaab/express-goto",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "description": "Express js goto library includes core initializers",
     "license": "MIT",
     "author": "Kajisaab",
@@ -15,6 +15,7 @@
         "url": "https://github.com/kajisaab/express-goto.git"
     },
     "devDependencies": {
+        "@swc/core": "^1.13.2",
         "@types/cors": "^2.8.19",
         "@types/express": "^5.0.3",
         "@types/jsonwebtoken": "^9.0.10",
@@ -32,6 +33,7 @@
         "nodemailer": "^7.0.5",
         "pug": "^3.0.3",
         "redis": "^4.7.0",
+        "typeorm": "^0.3.25",
         "uuid": "^11.1.0",
         "winston": "^3.17.0"
     }

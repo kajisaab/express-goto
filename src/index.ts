@@ -24,3 +24,4 @@ export * from './email';
 export * from './idGeneration/id-generator';
 export * from './common/index';
 export * from './caching/cache.factory';
+export * from './db/index';
